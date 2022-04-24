@@ -3,7 +3,7 @@ const info = async () => {
 };
 
 export const login = async (loginInfo) => {
-  return await fetch('http://127.0.0.1:9000/api/v0/auth/login', {
+  return await fetch('http://127.0.0.1:7000/api/v0/auth/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -13,7 +13,7 @@ export const login = async (loginInfo) => {
 };
 
 export const registerCustomer = async (signUp) => {
-  return await fetch('http://127.0.0.1:9000/api/v0/auth/sign-up-customer', {
+  return await fetch('http://127.0.0.1:7000/api/v0/auth/sign-up-customer', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -23,7 +23,7 @@ export const registerCustomer = async (signUp) => {
 };
 
 export const registerUser = async (signUp) => {
-  return await fetch('http://127.0.0.1:9000/api/v0/auth/sign-up', {
+  return await fetch('http://127.0.0.1:7000/api/v0/auth/sign-up', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -33,7 +33,7 @@ export const registerUser = async (signUp) => {
 };
 
 export const allUsers = async (signUp) => {
-  return await fetch('http://127.0.0.1:9000/api/v0/auth/users', {
+  return await fetch('http://127.0.0.1:7000/api/v0/auth/users', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
