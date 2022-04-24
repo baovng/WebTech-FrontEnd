@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Kartik",
+      "lname": "Michael",
+      "email": "tanmaykejriwal28@gmail.com",
+      "role": "Customer",
+      "password": "password",
+      "inactive": true
+    },
+    {
+      "name": "Test",
+      "email": "xyz@gmail.com",
+      "role": "Customer",
+      "inactive": false,
+      "lname": "perry",
+      "id": 2
+    },
+    {
+      "name": "Micah",
+      "email": "xyk@gmail.com",
+      "role": "SuperFrog",
+      "inactive": false,
+      "id": 3,
+      "lname": "Callan"
+    },
+    {
+      "name": "Vanshika",
+      "email": "test28@gmail.com",
+      "role": "SuperFrog",
+      "inactive": false,
+      "id": 4
+    },
+    {
+      "name": "Wei",
+      "email": "test@gmail.com",
+      "role": "SuperFrog",
+      "inactive": false,
+      "id": 5,
+      "lname": "Bei"
+    }
+  ],
+  "requests": [
+    {
+      "name": "Sahil",
+      "lname": "Kej",
+      "location": "San Francisco",
+      "theme": "Barbie",
+      "stime": "23:40",
+      "etime": "16:41",
+      "desc": "beuyvwve",
+      "email": "sahil@gmail.com",
+      "ename": "Birthday Party",
+      "date": "2022-04-22",
+      "status": "Assigned",
+      "assigned": "xyk@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "TK",
+      "lname": "K",
+      "location": "jhbehbew",
+      "theme": "bewuhbf",
+      "stime": "12:27",
+      "etime": "00:26",
+      "desc": "hgvfevf",
+      "email": "xyz@gmail.com",
+      "ename": "KEJ",
+      "date": "2022-04-08",
+      "status": "Finished",
+      "assigned": "xyk@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Micah",
+      "lname": "Collins",
+      "location": "Fort Worth",
+      "theme": "Barbie",
+      "stime": "21:52",
+      "etime": "22:52",
+      "desc": "jdbebdh",
+      "email": "tk@gmail.com",
+      "ename": "Super Birthday",
+      "date": "2022-04-21",
+      "status": "Assigned",
+      "assigned": "xyk@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Wei",
+      "lname": "Bei",
+      "location": "SF",
+      "theme": "bbe",
+      "stime": "02:09",
+      "etime": "02:09",
+      "desc": "fewhjb ",
+      "email": "test@gmail.com",
+      "ename": "TCU PARTY",
+      "date": "2022-04-30",
+      "status": "Created",
+      "assigned": "Not Assigned Yet",
+      "id": 4
+    }
+  ],
+  "superfrogs": [
+    {
+      "id": 0,
+      "name": "Kartik"
+    },
+    {
+      "id": 1,
+      "name": "Kaly"
+    }
+  ]
+}
